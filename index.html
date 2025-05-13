@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT PLN (Persero) - Website Resmi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #0c3c87;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            color: white;
+            float: left;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Image styles */
+        .company-image {
+            width: 40%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Responsive layout */
+        @media screen and (max-width: 768px) {
+            nav a {
+                float: none;
+                width: 100%;
+            }
+        }
+
+        .news-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .news-list li {
+            margin-bottom: 15px;
+        }
+
+        .news-list a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #0c3c87;
+        }
+
+        .news-list a:hover {
+            color: #333;
+        }
+
+        .news-detail {
+            margin-top: 20px;
+        }
+
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #0c3c87;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Selamat Datang di PT PLN (Persero)</h1>
+        <p>Menyalakan Indonesia dengan energi terbarukan dan terpercaya</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#vision-mission">Visi & Misi</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Home</h2>
+        <img class="company-image" src="images.png" alt="PT PLN Image">
+        <p>PT PLN (Persero) adalah perusahaan milik negara yang menyediakan layanan listrik untuk seluruh Indonesia. Kami berkomitmen untuk menyediakan listrik yang andal dan terjangkau kepada masyarakat di seluruh pelosok negeri.</p>
+        <p>PT PLN juga memfokuskan pada pengembangan energi terbarukan untuk memastikan masa depan yang lebih hijau dan ramah lingkungan bagi Indonesia.</p>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>PT PLN (Persero) berperan sebagai penyedia listrik utama di Indonesia. Sejak berdiri pada tahun 1945, kami telah menyediakan listrik untuk lebih dari 270 juta penduduk Indonesia. Misi kami adalah menciptakan sistem kelistrikan yang handal, efisien, dan ramah lingkungan dengan mengembangkan berbagai solusi energi terbarukan.</p>
+        <p>Kami terus berinovasi untuk mendukung pembangunan Indonesia melalui berbagai proyek pembangunan infrastruktur kelistrikan, seperti pembangkit listrik berbasis energi baru dan terbarukan (EBT) serta proyek distribusi listrik di daerah-daerah terpencil.</p>
+    </section>
+
+    <!-- Vision and Mission Section -->
+    <section id="vision-mission">
+        <h2>Visi & Misi</h2>
+        <h3>Visi</h3>
+        <p>Menjadi perusahaan penyedia energi listrik terkemuka yang mengutamakan pelayanan berkualitas, berfokus pada keberlanjutan lingkungan, serta memberikan kontribusi positif terhadap pembangunan ekonomi dan sosial di Indonesia.</p>
+
+        <h3>Misi</h3>
+        <ul>
+            <li>Menjamin penyediaan energi listrik yang handal, berkualitas, dan terjangkau untuk seluruh lapisan masyarakat Indonesia.</li>
+            <li>Mengembangkan dan memanfaatkan energi terbarukan sebagai bagian dari upaya untuk menjaga keberlanjutan lingkungan dan mengurangi ketergantungan terhadap energi fosil.</li>
+            <li>Memberikan pelayanan yang prima dengan teknologi terkini dan inovatif guna meningkatkan kenyamanan serta kepuasan pelanggan.</li>
+            <li>Menjadi mitra yang dapat diandalkan bagi seluruh stakeholder dalam pembangunan ekonomi dan sosial di Indonesia.</li>
+        </ul>
+    </section>
+
+    <!-- News Section -->
+    <section id="news">
+        <h2>News</h2>
+        <ul class="news-list">
+            <li><a href="#news-detail-1">PLN Berencana Menambah Kapasitas Energi Terbarukan</a></li>
+            <li><a href="#news-detail-2">PLN Meresmikan Pembangkit Listrik Baru di Papua</a></li>
+            <li><a href="#news-detail-3">PLN Memperkenalkan Layanan Listrik Pintar untuk Rumah Tangga</a></li>
+        </ul>
+    </section>
+
+    <!-- News Detail Section -->
+    <section id="news-detail-1" class="news-detail">
+        <h2>PLN Berencana Menambah Kapasitas Energi Terbarukan</h2>
+        <p>PLN terus mengembangkan kapasitas energi terbarukan di Indonesia untuk mencapai target keberlanjutan energi. Dalam beberapa tahun ke depan, PLN berencana menambah kapasitas pembangkit listrik dari sumber energi terbarukan seperti tenaga surya, angin, dan hidro.</p>
+        <img class="company-image" src="xzzph656glvyw4g.jpeg" alt="Energi Terbarukan">
+    </section>
+
+    <section id="news-detail-2" class="news-detail">
+        <h2>PLN Meresmikan Pembangkit Listrik Baru di Papua</h2>
+        <p>PLN telah meresmikan pembangkit listrik baru di Papua yang akan meningkatkan pasokan listrik di wilayah timur Indonesia. Proyek ini merupakan bagian dari upaya untuk mempercepat pemerataan energi di seluruh Indonesia.</p>
+        <img class="company-image" src="WhatsApp-Image-2024-06-22-at-17.25.26_d8f1b8ed.jpg" alt="Pembangkit Listrik Papua">
+    </section>
+
+    <section id="news-detail-3" class="news-detail">
+        <h2>PLN Memperkenalkan Layanan Listrik Pintar untuk Rumah Tangga</h2>
+        <p>PLN telah memperkenalkan teknologi listrik pintar yang memudahkan konsumen untuk mengelola konsumsi listrik secara efisien. Layanan ini akan memberikan kemudahan bagi masyarakat untuk memantau dan mengatur penggunaan listrik mereka melalui aplikasi di ponsel.</p>
+        <img class="company-image" src="token-listrik-murah.png" alt="Layanan Listrik Pintar">
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Hubungi Kami</h2>
+        <table>
+            <tr>
+                <th>Call Center</th>
+                <td>123</td>
+            </tr>
+            <tr>
+                <th>Telepon</th>
+                <td>(kode area) 123</td>
+            </tr>
+            <tr>
+                <th>Twitter</th>
+                <td>@pln_123</td>
+            </tr>
+            <tr>
+                <th>Facebook</th>
+                <td>PLN 123</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>pln123@pln.co.id</td>
+            </tr>
+            <tr>
+                <th>Instagram</th>
+                <td>pln123_official</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 PT PLN (Persero). All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
