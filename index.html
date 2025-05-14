@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PT PLN (Persero) - Website Resmi</title>
+    <link rel="icon" href="pln-logo.png" type="image/png">
+    <meta name="description" content="Website Resmi PT PLN (Persero)">
+    <meta name="keywords" content="PLN, Listrik, Energi Terbarukan, Indonesia">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -55,17 +58,19 @@
             width: 100%;
         }
 
-        /* Image styles */
         .company-image {
             width: 40%;
             height: auto;
             border-radius: 8px;
         }
 
-        /* Responsive layout */
         @media screen and (max-width: 768px) {
             nav a {
                 float: none;
+                width: 100%;
+            }
+
+            .company-image {
                 width: 100%;
             }
         }
@@ -93,7 +98,6 @@
             margin-top: 20px;
         }
 
-        /* Table styling */
         table {
             width: 100%;
             border-collapse: collapse;
@@ -113,18 +117,37 @@
             background-color: #0c3c87;
             color: white;
         }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form button {
+            background-color: #0c3c87;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #062f6c;
+        }
     </style>
 </head>
 
 <body>
 
-    <!-- Header -->
     <header>
         <h1>Selamat Datang di PT PLN (Persero)</h1>
         <p>Menyalakan Indonesia dengan energi terbarukan dan terpercaya</p>
     </header>
 
-    <!-- Navigation Bar -->
     <nav>
         <a href="#home">Home</a>
         <a href="#about">About Us</a>
@@ -133,7 +156,6 @@
         <a href="#contact">Contact Us</a>
     </nav>
 
-    <!-- Home Section -->
     <section id="home">
         <h2>Home</h2>
         <img class="company-image" src="images.png" alt="PT PLN Image">
@@ -141,14 +163,12 @@
         <p>PT PLN juga memfokuskan pada pengembangan energi terbarukan untuk memastikan masa depan yang lebih hijau dan ramah lingkungan bagi Indonesia.</p>
     </section>
 
-    <!-- About Us Section -->
     <section id="about">
         <h2>About Us</h2>
         <p>PT PLN (Persero) berperan sebagai penyedia listrik utama di Indonesia. Sejak berdiri pada tahun 1945, kami telah menyediakan listrik untuk lebih dari 270 juta penduduk Indonesia. Misi kami adalah menciptakan sistem kelistrikan yang handal, efisien, dan ramah lingkungan dengan mengembangkan berbagai solusi energi terbarukan.</p>
         <p>Kami terus berinovasi untuk mendukung pembangunan Indonesia melalui berbagai proyek pembangunan infrastruktur kelistrikan, seperti pembangkit listrik berbasis energi baru dan terbarukan (EBT) serta proyek distribusi listrik di daerah-daerah terpencil.</p>
     </section>
 
-    <!-- Vision and Mission Section -->
     <section id="vision-mission">
         <h2>Visi & Misi</h2>
         <h3>Visi</h3>
@@ -163,7 +183,6 @@
         </ul>
     </section>
 
-    <!-- News Section -->
     <section id="news">
         <h2>News</h2>
         <ul class="news-list">
@@ -173,26 +192,27 @@
         </ul>
     </section>
 
-    <!-- News Detail Section -->
     <section id="news-detail-1" class="news-detail">
         <h2>PLN Berencana Menambah Kapasitas Energi Terbarukan</h2>
         <p>PLN terus mengembangkan kapasitas energi terbarukan di Indonesia untuk mencapai target keberlanjutan energi. Dalam beberapa tahun ke depan, PLN berencana menambah kapasitas pembangkit listrik dari sumber energi terbarukan seperti tenaga surya, angin, dan hidro.</p>
         <img class="company-image" src="xzzph656glvyw4g.jpeg" alt="Energi Terbarukan">
+        <p><a href="#home" style="color: #0c3c87;">&larr; Kembali ke Beranda</a></p>
     </section>
 
     <section id="news-detail-2" class="news-detail">
         <h2>PLN Meresmikan Pembangkit Listrik Baru di Papua</h2>
         <p>PLN telah meresmikan pembangkit listrik baru di Papua yang akan meningkatkan pasokan listrik di wilayah timur Indonesia. Proyek ini merupakan bagian dari upaya untuk mempercepat pemerataan energi di seluruh Indonesia.</p>
         <img class="company-image" src="WhatsApp-Image-2024-06-22-at-17.25.26_d8f1b8ed.jpg" alt="Pembangkit Listrik Papua">
+        <p><a href="#home" style="color: #0c3c87;">&larr; Kembali ke Beranda</a></p>
     </section>
 
     <section id="news-detail-3" class="news-detail">
         <h2>PLN Memperkenalkan Layanan Listrik Pintar untuk Rumah Tangga</h2>
         <p>PLN telah memperkenalkan teknologi listrik pintar yang memudahkan konsumen untuk mengelola konsumsi listrik secara efisien. Layanan ini akan memberikan kemudahan bagi masyarakat untuk memantau dan mengatur penggunaan listrik mereka melalui aplikasi di ponsel.</p>
         <img class="company-image" src="token-listrik-murah.png" alt="Layanan Listrik Pintar">
+        <p><a href="#home" style="color: #0c3c87;">&larr; Kembali ke Beranda</a></p>
     </section>
 
-    <!-- Contact Us Section -->
     <section id="contact">
         <h2>Hubungi Kami</h2>
         <table>
@@ -221,12 +241,36 @@
                 <td>pln123_official</td>
             </tr>
         </table>
+
+        <h3>Formulir Kontak</h3>
+        <form>
+            <label for="name">Nama:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Pesan:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+
+            <button type="submit">Kirim</button>
+        </form>
     </section>
 
-    <!-- Footer -->
     <footer>
         <p>&copy; 2025 PT PLN (Persero). All rights reserved.</p>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.querySelector('form');
+            form.addEventListener('submit', (e) => {
+                e.preventDefault();
+                alert('Pesan Anda telah dikirim. Terima kasih!');
+                form.reset();
+            });
+        });
+    </script>
 
 </body>
 
